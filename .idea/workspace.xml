@@ -2,75 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/2d Iterator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/BankSystem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Collatz Conjecture.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Employee Free Time.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Flatten Nested List Iterator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Menu Combination Sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Minimum Vertices to Traverse Directed Graph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Palindrome Pairs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Pour Water.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/boggle game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/courses(alien dictionary).py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/display page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/file system.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/findMedian.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/guess number.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/maximal profit of intervals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/minWindowSubstring.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/parseCSV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/queue using fixed size array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/shortest path.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/travel buddy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/wiggle sort.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/滑雪.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Google/电面/max.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/GoodTuples.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/addSubstract.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/bestSquares.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/brokeKeyboard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/changeMatrix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/compareStrings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/coolFeature.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/diagonalsSort.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/divisorSubstrings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/elimanating.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/evenDigit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/matrixQueries.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/mostCommon.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/oneEqualZeroLength.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/prefixString.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/reOrderArray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/ribbon.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/sumOfString.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/transpose.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quora/OA/window.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intersection of 2 sorted lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscar/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscar/combination.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/Difference of two lists of intervals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/big_number_factorial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/compareDict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/factorial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/find intersection of 2 interval lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/generate parenthesis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/minMax.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/packageManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/quad tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/rate limiter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/围棋.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google/电面/lis.py" afterPath="$PROJECT_DIR$/Google/电面/lis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google/电面/max.py" afterPath="$PROJECT_DIR$/Google/电面/max.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/1.py" afterPath="$PROJECT_DIR$/Quora/OA/1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/GoodTuples.py" afterPath="$PROJECT_DIR$/Quora/OA/GoodTuples.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/addSubstract.py" afterPath="$PROJECT_DIR$/Quora/OA/addSubstract.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/bestSquares.py" afterPath="$PROJECT_DIR$/Quora/OA/bestSquares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/brokeKeyboard.py" afterPath="$PROJECT_DIR$/Quora/OA/brokeKeyboard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/changeMatrix.py" afterPath="$PROJECT_DIR$/Quora/OA/changeMatrix.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/compareStrings.py" afterPath="$PROJECT_DIR$/Quora/OA/compareStrings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/coolFeature.py" afterPath="$PROJECT_DIR$/Quora/OA/coolFeature.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/diagonalsSort.py" afterPath="$PROJECT_DIR$/Quora/OA/diagonalsSort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/divisorSubstrings.py" afterPath="$PROJECT_DIR$/Quora/OA/divisorSubstrings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/elimanating.py" afterPath="$PROJECT_DIR$/Quora/OA/elimanating.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/evenDigit.py" afterPath="$PROJECT_DIR$/Quora/OA/evenDigit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/matrixQueries.py" afterPath="$PROJECT_DIR$/Quora/OA/matrixQueries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/mostCommon.py" afterPath="$PROJECT_DIR$/Quora/OA/mostCommon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/oneEqualZeroLength.py" afterPath="$PROJECT_DIR$/Quora/OA/oneEqualZeroLength.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/prefixString.py" afterPath="$PROJECT_DIR$/Quora/OA/prefixString.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/reOrderArray.py" afterPath="$PROJECT_DIR$/Quora/OA/reOrderArray.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/ribbon.py" afterPath="$PROJECT_DIR$/Quora/OA/ribbon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/sumOfString.py" afterPath="$PROJECT_DIR$/Quora/OA/sumOfString.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/transpose.py" afterPath="$PROJECT_DIR$/Quora/OA/transpose.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/window.py" afterPath="$PROJECT_DIR$/Quora/OA/window.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intersection of 2 sorted lists.py" afterPath="$PROJECT_DIR$/intersection of 2 sorted lists.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intuit/courses.py" afterPath="$PROJECT_DIR$/intuit/courses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscar/combination.py" afterPath="$PROJECT_DIR$/oscar/combination.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" afterPath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stripe/vo/toy database.py" afterPath="$PROJECT_DIR$/stripe/vo/toy database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/Difference of two lists of intervals.py" afterPath="$PROJECT_DIR$/uber/Difference of two lists of intervals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/big_number_factorial.py" afterPath="$PROJECT_DIR$/uber/big_number_factorial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/compareDict.py" afterPath="$PROJECT_DIR$/uber/compareDict.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/factorial.py" afterPath="$PROJECT_DIR$/uber/factorial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/find intersection of 2 interval lists.py" afterPath="$PROJECT_DIR$/uber/find intersection of 2 interval lists.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" afterPath="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/generate parenthesis.py" afterPath="$PROJECT_DIR$/uber/generate parenthesis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/minMax.py" afterPath="$PROJECT_DIR$/uber/minMax.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" afterPath="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/packageManager.py" afterPath="$PROJECT_DIR$/uber/packageManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/quad tree.py" afterPath="$PROJECT_DIR$/uber/quad tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/rate limiter.py" afterPath="$PROJECT_DIR$/uber/rate limiter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/围棋.py" afterPath="$PROJECT_DIR$/uber/围棋.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -508,7 +480,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55942374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24838012" sideWeight="0.50739956" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
