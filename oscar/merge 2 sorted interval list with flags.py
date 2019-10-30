@@ -5,7 +5,8 @@ class Interval(object):
         self.start = start
         self.end = end
         self.flag = flag
-
+    def __str__(self):
+        return str(self.start) + ',' + str(self.end) + ',' + str(self.flag)
 
 
 class Solution:
@@ -39,11 +40,26 @@ class Solution:
             intervals.append(interval)
             return
 
-        last_interval = intervals[-1]
-        if last_interval.end < interval.start:
+        last_interval = Interval(intervals[-1].start, intervals[-1].end, intervals[-1].flag)
+        if last_interval.end <= interval.start:
             intervals.append(interval)
             return
-        if last_interval.flag == interval.flag:
-            intervals[-1].end = max(interval.end, intervals[-1].end)
+
+        if last_interval.end <= interval.end:
+            if intervals[-1].start < interval.start:
+                intervals[-1].end = interval.start
+            else:
+                intervals.pop()
+            if interval.start < last_interval.end:
+                intervals.append(Interval(interval.start, last_interval.end, interval.flag and last_interval.flag))
+            if last_interval.end != interval.end:
+                intervals.append(Interval(last_interval.end, interval.end, interval.flag))
         else:
-            intervals[-1].end = 
+            intervals[-1].end = interval.start
+            intervals.append(interval)
+            intervals[-1].flag = last_interval.flag and interval.flag
+            intervals.append(Interval(interval.end, last_interval.end, last_interval.flag))
+
+sol = Solution()
+for i in sol.mergeTwoInterval([Interval(2,5,True)], [Interval(1, 4, False), Interval(4, 8, True)]):
+    print(i)

@@ -56,9 +56,9 @@ def courseHelper(coursesRelation):
     for i in allCourses:
         dfs([], set(), i)
 
-    return [A[len(A) // 2] for A in res]
+    return res
 
-# print(courseHelper([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'E'), ('Z', 'Y'), ('Z', 'X'), ('Z', 'G')]))
-# print(courseHelper([('A', 'B'), ('B', 'A')]))
+print(courseHelper([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'E'), ('Z', 'Y'), ('Z', 'X'), ('Z', 'G')]))
+print(courseHelper([('A', 'B'), ('B', 'A')]))
 
 

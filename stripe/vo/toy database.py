@@ -56,7 +56,6 @@ def first_by_sort_order(sortOrder, records):
         return 0
     return sorted(records, key = functools.cmp_to_key(compare))[0]
 
-
 assert first_by_key("a", "asc", [{"a": 1}]) == {"a": 1}
 assert first_by_key("a", "asc", [{"b": 1}, {"b": -2}, {"a": 10}]) in [{"b": 1}, {"b": -2}]
 assert first_by_key("a", "desc", [{"b": 1}, {"b": -2}, {"a": 10}]) == {"a": 10}
