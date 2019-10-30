@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google/电面/lis.py" afterPath="$PROJECT_DIR$/Google/电面/lis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google/电面/max.py" afterPath="$PROJECT_DIR$/Google/电面/max.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/1.py" afterPath="$PROJECT_DIR$/Quora/OA/1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/GoodTuples.py" afterPath="$PROJECT_DIR$/Quora/OA/GoodTuples.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/addSubstract.py" afterPath="$PROJECT_DIR$/Quora/OA/addSubstract.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/bestSquares.py" afterPath="$PROJECT_DIR$/Quora/OA/bestSquares.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/brokeKeyboard.py" afterPath="$PROJECT_DIR$/Quora/OA/brokeKeyboard.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/changeMatrix.py" afterPath="$PROJECT_DIR$/Quora/OA/changeMatrix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/compareStrings.py" afterPath="$PROJECT_DIR$/Quora/OA/compareStrings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/coolFeature.py" afterPath="$PROJECT_DIR$/Quora/OA/coolFeature.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/diagonalsSort.py" afterPath="$PROJECT_DIR$/Quora/OA/diagonalsSort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/divisorSubstrings.py" afterPath="$PROJECT_DIR$/Quora/OA/divisorSubstrings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/elimanating.py" afterPath="$PROJECT_DIR$/Quora/OA/elimanating.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/evenDigit.py" afterPath="$PROJECT_DIR$/Quora/OA/evenDigit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/matrixQueries.py" afterPath="$PROJECT_DIR$/Quora/OA/matrixQueries.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/mostCommon.py" afterPath="$PROJECT_DIR$/Quora/OA/mostCommon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/oneEqualZeroLength.py" afterPath="$PROJECT_DIR$/Quora/OA/oneEqualZeroLength.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/prefixString.py" afterPath="$PROJECT_DIR$/Quora/OA/prefixString.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/reOrderArray.py" afterPath="$PROJECT_DIR$/Quora/OA/reOrderArray.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/ribbon.py" afterPath="$PROJECT_DIR$/Quora/OA/ribbon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/sumOfString.py" afterPath="$PROJECT_DIR$/Quora/OA/sumOfString.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/transpose.py" afterPath="$PROJECT_DIR$/Quora/OA/transpose.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quora/OA/window.py" afterPath="$PROJECT_DIR$/Quora/OA/window.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intersection of 2 sorted lists.py" afterPath="$PROJECT_DIR$/intersection of 2 sorted lists.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intuit/courses.py" afterPath="$PROJECT_DIR$/intuit/courses.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscar/combination.py" afterPath="$PROJECT_DIR$/oscar/combination.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" afterPath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stripe/vo/toy database.py" afterPath="$PROJECT_DIR$/stripe/vo/toy database.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/Difference of two lists of intervals.py" afterPath="$PROJECT_DIR$/uber/Difference of two lists of intervals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/big_number_factorial.py" afterPath="$PROJECT_DIR$/uber/big_number_factorial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/compareDict.py" afterPath="$PROJECT_DIR$/uber/compareDict.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/factorial.py" afterPath="$PROJECT_DIR$/uber/factorial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/find intersection of 2 interval lists.py" afterPath="$PROJECT_DIR$/uber/find intersection of 2 interval lists.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" afterPath="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/generate parenthesis.py" afterPath="$PROJECT_DIR$/uber/generate parenthesis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/minMax.py" afterPath="$PROJECT_DIR$/uber/minMax.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" afterPath="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/packageManager.py" afterPath="$PROJECT_DIR$/uber/packageManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/quad tree.py" afterPath="$PROJECT_DIR$/uber/quad tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/rate limiter.py" afterPath="$PROJECT_DIR$/uber/rate limiter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uber/围棋.py" afterPath="$PROJECT_DIR$/uber/围棋.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/preferenceList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/pyramidTransition.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,26 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="display page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Airbnb/display page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collatz Conjecture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Airbnb/Collatz Conjecture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Minimum Vertices to Traverse Directed Graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/Minimum Vertices to Traverse Directed Graph.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,11 +90,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courses(alien dictionary).py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="courses(alien dictionary).py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/courses(alien dictionary).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="168">
               <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preferenceList.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Airbnb/preferenceList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyramidTransition.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Airbnb/pyramidTransition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Quora/OA/bestSquares.py" />
-        <option value="$PROJECT_DIR$/Quora/OA/brokeKeyboard.py" />
         <option value="$PROJECT_DIR$/Quora/OA/coolFeature.py" />
         <option value="$PROJECT_DIR$/uber/minMax.py" />
         <option value="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" />
@@ -238,6 +198,8 @@
         <option value="$PROJECT_DIR$/Airbnb/parseCSV.py" />
         <option value="$PROJECT_DIR$/Airbnb/BankSystem.py" />
         <option value="$PROJECT_DIR$/Airbnb/minWindowSubstring.py" />
+        <option value="$PROJECT_DIR$/Airbnb/pyramidTransition.py" />
+        <option value="$PROJECT_DIR$/Airbnb/preferenceList.py" />
       </list>
     </option>
   </component>
@@ -310,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BankSystem">
+  <component name="RunManager" selected="Python.preferenceList">
     <configuration name="滑雪" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,23 +303,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/BankSystem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Collatz Conjecture" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/Collatz Conjecture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,20 +341,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="preferenceList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/preferenceList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Collatz Conjecture" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Minimum Vertices to Traverse Directed Graph" />
-      <item index="2" class="java.lang.String" itemvalue="Python.滑雪" />
-      <item index="3" class="java.lang.String" itemvalue="Python.parseCSV" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BankSystem" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Minimum Vertices to Traverse Directed Graph" />
+      <item index="1" class="java.lang.String" itemvalue="Python.滑雪" />
+      <item index="2" class="java.lang.String" itemvalue="Python.parseCSV" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BankSystem" />
+      <item index="4" class="java.lang.String" itemvalue="Python.preferenceList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BankSystem" />
-        <item index="1" class="java.lang.String" itemvalue="Python.parseCSV" />
-        <item index="2" class="java.lang.String" itemvalue="Python.滑雪" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Minimum Vertices to Traverse Directed Graph" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Collatz Conjecture" />
+        <item index="0" class="java.lang.String" itemvalue="Python.preferenceList" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BankSystem" />
+        <item index="2" class="java.lang.String" itemvalue="Python.parseCSV" />
+        <item index="3" class="java.lang.String" itemvalue="Python.滑雪" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Minimum Vertices to Traverse Directed Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -472,15 +434,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27213824" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2726782" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31092438" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55942374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5582233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24838012" sideWeight="0.50739956" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -523,20 +486,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Quora/OA/transpose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stripe/vo/allocate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stripe/vo/changeRoom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -886,8 +835,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/courses(alien dictionary).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="168">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/preferenceList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/pyramidTransition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
