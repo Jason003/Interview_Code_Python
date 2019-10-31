@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/mergeStream.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/hilbertCurve.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/2d Iterator.py" afterPath="$PROJECT_DIR$/Airbnb/2d Iterator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" afterPath="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,18 +22,18 @@
       <file leaf-file-name="2d Iterator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/2d Iterator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="1337">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mergeStream.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uber/mergeStream.py">
+      <file leaf-file-name="Sliding Game N puzzle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -66,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uber/minMax.py" />
         <option value="$PROJECT_DIR$/uber/nonAdjacentMaxSum.py" />
         <option value="$PROJECT_DIR$/uber/packageManager.py" />
         <option value="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" />
@@ -83,7 +84,6 @@
         <option value="$PROJECT_DIR$/uber/rate limiter.py" />
         <option value="$PROJECT_DIR$/Airbnb/alien dictionary.py" />
         <option value="$PROJECT_DIR$/intuit/courses.py" />
-        <option value="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" />
         <option value="$PROJECT_DIR$/Airbnb/Palindrome Pairs.py" />
         <option value="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" />
         <option value="$PROJECT_DIR$/Airbnb/findMedian.py" />
@@ -115,16 +115,18 @@
         <option value="$PROJECT_DIR$/Airbnb/minWindowSubstring.py" />
         <option value="$PROJECT_DIR$/Airbnb/pyramidTransition.py" />
         <option value="$PROJECT_DIR$/Airbnb/preferenceList.py" />
-        <option value="$PROJECT_DIR$/Airbnb/2d Iterator.py" />
         <option value="$PROJECT_DIR$/uber/mergeStream.py" />
+        <option value="$PROJECT_DIR$/Airbnb/2d Iterator.py" />
+        <option value="$PROJECT_DIR$/Airbnb/hilbertCurve.py" />
+        <option value="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="348" />
-    <option name="y" value="-9" />
+    <option name="x" value="782" />
+    <option name="y" value="-32" />
     <option name="width" value="1662" />
-    <option name="height" value="1035" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,7 +156,7 @@
             <path>
               <item name="Python学习" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python学习" type="462c0819:PsiDirectoryNode" />
-              <item name="uber" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mergeStream">
+  <component name="RunManager" selected="Python.Sliding Game N puzzle">
     <configuration name="2d Iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,7 +209,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Sliding Game N puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -219,7 +221,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/BankSystem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="hilbertCurve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/hilbertCurve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,23 +256,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uber/mergeStream.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="parseCSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/parseCSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,19 +278,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.parseCSV" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BankSystem" />
-      <item index="2" class="java.lang.String" itemvalue="Python.preferenceList" />
-      <item index="3" class="java.lang.String" itemvalue="Python.2d Iterator" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mergeStream" />
+      <item index="0" class="java.lang.String" itemvalue="Python.preferenceList" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2d Iterator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mergeStream" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hilbertCurve" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Sliding Game N puzzle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mergeStream" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2d Iterator" />
-        <item index="2" class="java.lang.String" itemvalue="Python.preferenceList" />
-        <item index="3" class="java.lang.String" itemvalue="Python.BankSystem" />
-        <item index="4" class="java.lang.String" itemvalue="Python.parseCSV" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Sliding Game N puzzle" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hilbertCurve" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2d Iterator" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mergeStream" />
+        <item index="4" class="java.lang.String" itemvalue="Python.preferenceList" />
       </list>
     </recent_temporary>
   </component>
@@ -351,11 +353,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2726782" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21814255" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31092438" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30252102" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -402,13 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uber/compareDict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uber/Difference of two lists of intervals.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -491,13 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -760,18 +749,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/2d Iterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uber/mergeStream.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/hilbertCurve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/2d Iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1337">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -10,23 +10,23 @@ class SlidingPuzzle:
         start = ''.join(str(board1[i][j]) for i in range(m) for j in range(n))
         end = ''.join(str(board2[i][j]) for i in range(m) for j in range(n))
         seen = set()
-        dq = collections.deque([start])
+        dq = collections.deque([[start]])
         step = 0
         while dq:
             sz = len(dq)
             for _ in range(sz):
                 curr = dq.popleft()
-                if curr == end:
-                    return step + 1
-                zeroIdx = curr.find('0')
+                if curr[-1] == end:
+                    return step + 1, curr
+                zeroIdx = curr[-1].find('0')
                 x, y = zeroIdx // n, zeroIdx % n
                 for d in self.dir:
                     nxt_x, nxt_y = x + d[0], y + d[1]
                     if self._valid(nxt_x, nxt_y, m, n):
-                        nxt = self._swap(curr, zeroIdx, nxt_x * n + nxt_y)
+                        nxt = self._swap(curr[-1], zeroIdx, nxt_x * n + nxt_y)
                         if nxt not in seen:
                             seen.add(nxt)
-                            dq.append(nxt)
+                            dq.append(curr + [nxt])
             step += 1
         return -1
 
