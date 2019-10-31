@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/board score.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/KEditDistance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/findMedian.py" afterPath="$PROJECT_DIR$/Airbnb/findMedian.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,31 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="roundPrice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Airbnb/roundPrice.py">
+      <file leaf-file-name="KEditDistance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="board score.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Airbnb/board score.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="findMedian.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Airbnb/findMedian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="469">
+              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -66,12 +46,15 @@
       <find>，</find>
       <find>*</find>
       <find>;</find>
+      <find>&amp; &amp;</find>
       <find>}</find>
     </findStrings>
     <replaceStrings>
       <replace>priority</replace>
       <replace>,</replace>
       <replace>]</replace>
+      <replace>and</replace>
+      <replace>)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -80,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uber/findFirstColumnHasOne.py" />
-        <option value="$PROJECT_DIR$/uber/Difference of two lists of intervals.py" />
         <option value="$PROJECT_DIR$/uber/围棋.py" />
         <option value="$PROJECT_DIR$/uber/generate parenthesis.py" />
         <option value="$PROJECT_DIR$/stripe/vo/toy database.py" />
@@ -131,6 +112,8 @@
         <option value="$PROJECT_DIR$/Airbnb/roundPrice.py" />
         <option value="$PROJECT_DIR$/Airbnb/board score.py" />
         <option value="$PROJECT_DIR$/Airbnb/findMedian.py" />
+        <option value="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
+        <option value="$PROJECT_DIR$/Airbnb/KEditDistance.py" />
       </list>
     </option>
   </component>
@@ -203,8 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findMedian">
-    <configuration name="Sliding Game N puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.KEditDistance">
+    <configuration name="KEditDistance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -216,7 +199,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/KEditDistance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="NumberofIntersectedRectangles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,23 +255,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="hilbertCurve" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/hilbertCurve.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="roundPrice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,19 +273,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hilbertCurve" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Sliding Game N puzzle" />
-      <item index="2" class="java.lang.String" itemvalue="Python.roundPrice" />
-      <item index="3" class="java.lang.String" itemvalue="Python.board score" />
-      <item index="4" class="java.lang.String" itemvalue="Python.findMedian" />
+      <item index="0" class="java.lang.String" itemvalue="Python.roundPrice" />
+      <item index="1" class="java.lang.String" itemvalue="Python.board score" />
+      <item index="2" class="java.lang.String" itemvalue="Python.findMedian" />
+      <item index="3" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
+      <item index="4" class="java.lang.String" itemvalue="Python.KEditDistance" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.findMedian" />
-        <item index="1" class="java.lang.String" itemvalue="Python.board score" />
-        <item index="2" class="java.lang.String" itemvalue="Python.roundPrice" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Sliding Game N puzzle" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hilbertCurve" />
+        <item index="0" class="java.lang.String" itemvalue="Python.KEditDistance" />
+        <item index="1" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
+        <item index="2" class="java.lang.String" itemvalue="Python.findMedian" />
+        <item index="3" class="java.lang.String" itemvalue="Python.board score" />
+        <item index="4" class="java.lang.String" itemvalue="Python.roundPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +303,14 @@
       <option name="presentableId" value="Default" />
       <updated>1564623109042</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added 2 solutions">
+      <created>1572538867656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572538867656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,7 +361,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22354212" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30252102" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -410,6 +401,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added 2 solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 solutions" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -417,20 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uber/围棋.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/minMax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uber/nonAdjacentMaxSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -653,14 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/pyramidTransition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/minWindowSubstring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -745,18 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/roundPrice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-10/LargeMedianTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/pyramidTransition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/findMedian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -769,10 +750,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/findMedian.py">
+    <entry file="file://$PROJECT_DIR$/Airbnb/roundPrice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="600">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
           <folding />
         </state>
       </provider>
