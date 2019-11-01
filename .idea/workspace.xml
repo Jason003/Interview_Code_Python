@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/KEditDistance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/IP to CIDR.py" afterPath="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="KEditDistance.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KEditDistance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            <state relative-caret-position="1128">
+              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IP to CIDR.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Airbnb/IP to CIDR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -79,7 +88,6 @@
         <option value="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" />
         <option value="$PROJECT_DIR$/Airbnb/Flatten Nested List Iterator.py" />
         <option value="$PROJECT_DIR$/Airbnb/Menu Combination Sum.py" />
-        <option value="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
         <option value="$PROJECT_DIR$/Airbnb/boggle game.py" />
         <option value="$PROJECT_DIR$/uber/quad tree.py" />
         <option value="$PROJECT_DIR$/Airbnb/guess number.py" />
@@ -114,6 +122,7 @@
         <option value="$PROJECT_DIR$/Airbnb/findMedian.py" />
         <option value="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
         <option value="$PROJECT_DIR$/Airbnb/KEditDistance.py" />
+        <option value="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
       </list>
     </option>
   </component>
@@ -186,7 +195,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KEditDistance">
+  <component name="RunManager" selected="Python.IP to CIDR">
+    <configuration name="IP to CIDR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="KEditDistance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,37 +281,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="roundPrice" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/roundPrice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.roundPrice" />
-      <item index="1" class="java.lang.String" itemvalue="Python.board score" />
-      <item index="2" class="java.lang.String" itemvalue="Python.findMedian" />
-      <item index="3" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
-      <item index="4" class="java.lang.String" itemvalue="Python.KEditDistance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.board score" />
+      <item index="1" class="java.lang.String" itemvalue="Python.findMedian" />
+      <item index="2" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
+      <item index="3" class="java.lang.String" itemvalue="Python.KEditDistance" />
+      <item index="4" class="java.lang.String" itemvalue="Python.IP to CIDR" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.KEditDistance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
-        <item index="2" class="java.lang.String" itemvalue="Python.findMedian" />
-        <item index="3" class="java.lang.String" itemvalue="Python.board score" />
-        <item index="4" class="java.lang.String" itemvalue="Python.roundPrice" />
+        <item index="0" class="java.lang.String" itemvalue="Python.IP to CIDR" />
+        <item index="1" class="java.lang.String" itemvalue="Python.KEditDistance" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
+        <item index="3" class="java.lang.String" itemvalue="Python.findMedian" />
+        <item index="4" class="java.lang.String" itemvalue="Python.board score" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572538867656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 2 solutions">
+      <created>1572553320709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572553320709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -466,13 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/IP to CIDR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -768,8 +777,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="1128">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/IP to CIDR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
