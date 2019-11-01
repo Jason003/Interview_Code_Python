@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/Airbnb/findMedian.py" line="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
+    <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="added conner cases">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Airbnb/common ancestor region.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/IP to CIDR.py" afterPath="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,22 +19,12 @@
     <favorites_list name="Python学习" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="KEditDistance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
+    <leaf>
+      <file leaf-file-name="common ancestor region.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Airbnb/common ancestor region.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IP to CIDR.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Airbnb/IP to CIDR.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -57,6 +47,7 @@
       <find>;</find>
       <find>&amp; &amp;</find>
       <find>}</find>
+      <find>ancestors</find>
     </findStrings>
     <replaceStrings>
       <replace>priority</replace>
@@ -64,6 +55,7 @@
       <replace>]</replace>
       <replace>and</replace>
       <replace>)</replace>
+      <replace>ancestor</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -72,10 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uber/围棋.py" />
-        <option value="$PROJECT_DIR$/uber/generate parenthesis.py" />
-        <option value="$PROJECT_DIR$/stripe/vo/toy database.py" />
-        <option value="$PROJECT_DIR$/../interview/mergeIntervals.py" />
         <option value="$PROJECT_DIR$/Airbnb/Pour WAter.py" />
         <option value="$PROJECT_DIR$/Airbnb/maximal profit of intervals.py" />
         <option value="$PROJECT_DIR$/Airbnb/bellman ford.py" />
@@ -123,12 +111,16 @@
         <option value="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
         <option value="$PROJECT_DIR$/Airbnb/KEditDistance.py" />
         <option value="$PROJECT_DIR$/Airbnb/IP to CIDR.py" />
+        <option value="$PROJECT_DIR$/Airbnb/N-ary LAC.py" />
+        <option value="$PROJECT_DIR$/Airbnb/N-ary LCA.py" />
+        <option value="$PROJECT_DIR$/Airbnb/common ancestor region.py" />
+        <option value="D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-11/lowestAnces.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="782" />
-    <option name="y" value="-32" />
+    <option name="x" value="831" />
+    <option name="y" value="-7" />
     <option name="width" value="1662" />
     <option name="height" value="1032" />
   </component>
@@ -150,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +160,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IP to CIDR">
+  <component name="RunManager" selected="Python.common ancestor region">
     <configuration name="IP to CIDR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +222,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="NumberofIntersectedRectangles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="N-ary LCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -242,12 +234,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/NumberofIntersectedRectangles.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\79257\Desktop\Python\Python学习\Airbnb\common ancestor region.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="board score" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="common ancestor region" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -259,42 +251,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/board score.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/common ancestor region.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="findMedian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lowestAnces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-11" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/findMedian.py" />
+      <option name="SCRIPT_NAME" value="D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-11/lowestAnces.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.board score" />
-      <item index="1" class="java.lang.String" itemvalue="Python.findMedian" />
-      <item index="2" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
-      <item index="3" class="java.lang.String" itemvalue="Python.KEditDistance" />
-      <item index="4" class="java.lang.String" itemvalue="Python.IP to CIDR" />
+      <item index="0" class="java.lang.String" itemvalue="Python.KEditDistance" />
+      <item index="1" class="java.lang.String" itemvalue="Python.IP to CIDR" />
+      <item index="2" class="java.lang.String" itemvalue="Python.N-ary LCA" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lowestAnces" />
+      <item index="4" class="java.lang.String" itemvalue="Python.common ancestor region" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.IP to CIDR" />
-        <item index="1" class="java.lang.String" itemvalue="Python.KEditDistance" />
-        <item index="2" class="java.lang.String" itemvalue="Python.NumberofIntersectedRectangles" />
-        <item index="3" class="java.lang.String" itemvalue="Python.findMedian" />
-        <item index="4" class="java.lang.String" itemvalue="Python.board score" />
+        <item index="0" class="java.lang.String" itemvalue="Python.common ancestor region" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lowestAnces" />
+        <item index="2" class="java.lang.String" itemvalue="Python.N-ary LCA" />
+        <item index="3" class="java.lang.String" itemvalue="Python.IP to CIDR" />
+        <item index="4" class="java.lang.String" itemvalue="Python.KEditDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572553320709</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added conner cases">
+      <created>1572566895912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572566895912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -374,7 +373,7 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22354212" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2985961" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -419,7 +418,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added 2 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 solutions" />
+    <MESSAGE value="added conner cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="added conner cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,20 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uber/nonAdjacentMaxSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/packageManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../interview/mergeIntervals.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -496,13 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/boggle game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -573,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
           <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1032">
           <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1032">
           <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1337">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,15 +736,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
+    <entry file="file://$PROJECT_DIR$/Airbnb/boggle game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="37">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -787,6 +750,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/KEditDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-11/lowestAnces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/common ancestor region.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
