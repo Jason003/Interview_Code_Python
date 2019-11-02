@@ -6,7 +6,7 @@ class Solution(object):
         n = len(nums)
 
         # Index-rewiring.
-        f = lambda i: (1 + 2 * (i)) % (n | 1)
+        f = lambda i: (1 + 2 * i) % (n | 1)
 
         mid = self.findKthSmallest(nums, len(nums) // 2)
 
@@ -14,7 +14,7 @@ class Solution(object):
         i, j, k = 0, 0, n - 1
 
         while j <= k:
-            if (nums[f(j)] > mid):
+            if nums[f(j)] > mid:
                 nums[f(i)], nums[f(j)] = nums[f(j)], nums[f(i)]
                 i += 1
                 j += 1

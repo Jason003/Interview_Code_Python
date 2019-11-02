@@ -8,7 +8,7 @@ class BankSystem:
         self.acounts[id].append((timestamp, amount + self.acounts[id][-1][1]))
 
     def withdraw(self, id, amount, timestamp):
-        if self.acounts[id][-1] < amount:
+        if self.acounts[id][-1][1] < amount:
             return False
         self.acounts[id].append((timestamp, self.acounts[id][-1][1] - amount))
         return True

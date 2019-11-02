@@ -22,6 +22,7 @@ def solution(A, p, q):
             return candidate
     return None
 
+
 print(solution([["Earth", "North America", "South America"],
                 ["North America", "United States", "Canada"],
                 ["United States", "New York", "Boston"],

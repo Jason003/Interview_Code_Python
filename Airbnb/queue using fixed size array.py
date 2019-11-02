@@ -26,7 +26,9 @@ class MyQueue:
         res = self.poll_arr[self.head]
         self.head += 1
         if self.head == self.size - 1:
-            self.poll_arr = self.poll_arr[-1]
+            newList = self.poll_arr[-1][:]
+            self.poll_arr.clear()
+            self.poll_arr = newList
             self.head = 0
         return res
 
