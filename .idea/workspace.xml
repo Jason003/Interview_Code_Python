@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/kPalindrome.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uber/mergeInterval.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/BankSystem.py" afterPath="$PROJECT_DIR$/Airbnb/BankSystem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/common ancestor region.py" afterPath="$PROJECT_DIR$/Airbnb/common ancestor region.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/queue using fixed size array.py" afterPath="$PROJECT_DIR$/Airbnb/queue using fixed size array.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/wiggle sort.py" afterPath="$PROJECT_DIR$/Airbnb/wiggle sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" afterPath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +43,18 @@
       <file leaf-file-name="Employee Free Time.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/Employee Free Time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
+            <state relative-caret-position="672">
               <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cheapest Flights Within K Stops.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -75,11 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankSystem.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankSystem.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/BankSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="48">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximal profit of intervals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Airbnb/maximal profit of intervals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -119,14 +134,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Airbnb/bellman ford.py" />
         <option value="$PROJECT_DIR$/Airbnb/shortest path.py" />
         <option value="$PROJECT_DIR$/Airbnb/file system.py" />
         <option value="$PROJECT_DIR$/uber/rate limiter.py" />
         <option value="$PROJECT_DIR$/Airbnb/alien dictionary.py" />
         <option value="$PROJECT_DIR$/intuit/courses.py" />
         <option value="$PROJECT_DIR$/Airbnb/Palindrome Pairs.py" />
-        <option value="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" />
         <option value="$PROJECT_DIR$/Airbnb/Flatten Nested List Iterator.py" />
         <option value="$PROJECT_DIR$/Airbnb/Menu Combination Sum.py" />
         <option value="$PROJECT_DIR$/Airbnb/boggle game.py" />
@@ -170,13 +183,15 @@
         <option value="$PROJECT_DIR$/Airbnb/queue using fixed size array.py" />
         <option value="$PROJECT_DIR$/Airbnb/wiggle sort.py" />
         <option value="$PROJECT_DIR$/Airbnb/BankSystem.py" />
+        <option value="$PROJECT_DIR$/Airbnb/maximal profit of intervals.py" />
+        <option value="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="203" />
-    <option name="y" value="13" />
-    <option name="width" value="1662" />
+    <option name="x" value="-39" />
+    <option name="y" value="-26" />
+    <option name="width" value="973" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -247,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wiggle sort">
+  <component name="RunManager" selected="Python.maximal profit of intervals">
     <configuration name="kPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,19 +280,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="lowestAnces" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maximal profit of intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-11" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airbnb" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
-      <option name="SCRIPT_NAME" value="D:/微信文件/WeChat Files/ljf792576519/FileStorage/File/2019-11/lowestAnces.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airbnb/maximal profit of intervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,19 +349,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.lowestAnces" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mergeInterval" />
-      <item index="2" class="java.lang.String" itemvalue="Python.kPalindrome" />
-      <item index="3" class="java.lang.String" itemvalue="Python.queue using fixed size array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.wiggle sort" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mergeInterval" />
+      <item index="1" class="java.lang.String" itemvalue="Python.kPalindrome" />
+      <item index="2" class="java.lang.String" itemvalue="Python.queue using fixed size array" />
+      <item index="3" class="java.lang.String" itemvalue="Python.wiggle sort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.maximal profit of intervals" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.wiggle sort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.queue using fixed size array" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kPalindrome" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mergeInterval" />
-        <item index="4" class="java.lang.String" itemvalue="Python.lowestAnces" />
+        <item index="0" class="java.lang.String" itemvalue="Python.maximal profit of intervals" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wiggle sort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.queue using fixed size array" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kPalindrome" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mergeInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572619589747</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added more answers">
+      <created>1572698264163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572698264164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -440,7 +462,7 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27645788" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18304536" sideWeight="0.4926004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30252102" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -574,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -656,13 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/maximal profit of intervals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -816,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/Employee Free Time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/wiggle sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -842,8 +842,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/BankSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/maximal profit of intervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/Employee Free Time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding />
         </state>
       </provider>
