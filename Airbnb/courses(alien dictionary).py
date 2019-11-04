@@ -62,3 +62,34 @@ print(courseHelper([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'E'), ('Z', 'Y'), 
 print(courseHelper([('A', 'B'), ('B', 'A')]))
 
 
+def courseHelper_dfs(coursesRelation):
+    allCourses = set()
+    pre = collections.defaultdict(set)
+    is_pre = collections.defaultdict(set)
+    for i, j in coursesRelation:
+        allCourses.add(i)
+        allCourses.add(j)
+        is_pre[j].add(i)
+        pre[i].add(j)
+
+    res = [i for i in allCourses if not pre[i]]
+
+    def dfs(curr):
+        if len(res) == len(allCourses):
+            return
+        nxt = []
+        for p in curr:
+            for q in is_pre[p]:
+                pre[q].discard(p)
+                if not pre[q]:
+                    nxt.append(q)
+        if not nxt:
+            return
+        res.extend(nxt)
+        dfs(nxt)
+
+    dfs(res)
+    return res if len(res) == len(allCourses) else []
+
+print(courseHelper_dfs([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'E'), ('Z', 'Y'), ('Z', 'X'), ('Z', 'G')]))
+print(courseHelper_dfs([('A', 'B'), ('B', 'A')]))
