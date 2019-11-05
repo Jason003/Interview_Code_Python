@@ -5,15 +5,13 @@ def solution(A, point):
     v = A[x][y]
     m, n = len(A), len(A[0])
 
-    def corner(x, y):
-        for dx, dy in ((1, 0), (-1, 0), (0, -1), (0, 1)):
-            xx, yy = x + dx, y + dy
-            if 0 <= xx < m and 0 <= yy < n:
-                if A[xx][yy] == '.' or A[xx][yy] == v:
-                    return False
-        return True
-    if (x == 0 or x == m - 1 or y == 0 or y == n - 1) and corner(x, y):
-        return True
+    corner = 0
+
+    if x == 0 or x == m - 1 or y == 0 or y == n - 1:
+        if x == 0 and y == 0 or x == m - 1 and y == 0 or x == 0 and y == n - 1 or x == m - 1 and y == n - 1:
+            corner = 2
+        else:
+            corner = 1
 
     if v == '.': return False
     dq = collections.deque([(x, y)])
@@ -24,7 +22,11 @@ def solution(A, point):
         for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
             xx, yy = x + dx, y + dy
             if not (0 <= xx < m and 0 <= yy < n):
-                return False
+                if not corner:
+                    return False
+                else:
+                    corner -= 1
+                    continue
             if (xx, yy) not in seen:
                 seen.add((xx, yy))
                 if A[xx][yy] == '.':
@@ -34,4 +36,4 @@ def solution(A, point):
     return True
 
 
-print(solution([['X', 'O', 'O'], ['O', 'O', 'O'], ['O', 'O', 'O']], (0, 0)))
+print(solution([['O', 'O', 'O'], ['O', 'O', 'O'], ['O', 'O', 'X']], (2, 2)))
