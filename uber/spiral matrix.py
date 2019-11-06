@@ -21,3 +21,4 @@ def generateMatrix(n):
             num += 1
         left += 1
     return res
+print(generateMatrix(5))
