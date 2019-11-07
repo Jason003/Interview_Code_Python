@@ -16,7 +16,6 @@ class MyIterator:
                 self.dq.appendleft(i)
         return len(self.dq) > 0
 
-#
 # it = MyIterator([[[1, 2, 3, 4]], [5, [6, 7, 8, 4, 3]], 7, 5, 2, 4, [3, 4, 4]])
 # while it.hasNext():
 #     print(it.next())
@@ -27,12 +26,14 @@ class TwoDIterator:
         self.A = A
         self.row = 0
         self.col = 0
+        self.canRemove = False
 
     def next(self):
         if not self.hasNext():
-            raise IndexError
+            raise RuntimeError
         val = self.A[self.row][self.col]
         self.col += 1
+        self.canRemove = True
         return val
 
     def hasNext(self):
@@ -47,6 +48,8 @@ class TwoDIterator:
         return False
 
     def remove(self):
+        if not self.canRemove:
+            raise RuntimeError
         rowToBeRemoved = self.row
         colToBeRemoved = self.col
         if colToBeRemoved == 0:
@@ -59,6 +62,7 @@ class TwoDIterator:
             del self.A[rowToBeRemoved]
         if self.col > 0:
             self.col -= 1
+        self.canRemove = False
 
 
 it = TwoDIterator([[1, 2], [3, 4], [5, 6]])
@@ -70,4 +74,3 @@ print(it.A)
 print(it.next())
 print(it.next())
 print(it.next())
-

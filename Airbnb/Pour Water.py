@@ -281,3 +281,44 @@ def pourWater4(A, V, K): # no walls
             A[idx] += 1
     printWater()
     return A
+
+# 两边都有墙，不是先左后右，而是哪个最低去哪个
+def pourWater5(A, V, K):
+
+    def printWater():
+        m, n = max(A), len(A)
+        res = [[' '] * n for _ in range(m)]
+        for j in range(n):
+            for i in range(A[j]):
+                res[-i-1][j] = 'w'
+            for i in range(tep[j]):
+                res[-i - 1][j] = '#'
+
+        for row in res:
+            print(''.join(row))
+        print('============')
+
+    tep = A[:]
+    printWater()
+
+    n = len(A)
+    for _ in range(V):
+        idxLeft, idxRight = K, K
+        for i in range(K, -1, -1):
+            if A[i] < A[idxLeft]:
+                idxLeft = i
+            elif A[i] > A[idxLeft]:
+                break
+        for i in range(K, n):
+            if A[i] < A[idxRight]:
+                idxRight = i
+            elif A[i] > A[idxRight]:
+                break
+        if A[idxLeft] < A[idxRight]:
+            A[idxLeft] += 1
+        else:
+            A[idxRight] += 1
+        printWater()
+    return A
+
+pourWater5([5,4,3,2,5], 10, 2)

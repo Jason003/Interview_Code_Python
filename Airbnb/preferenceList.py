@@ -1,4 +1,64 @@
 import collections
+
+
+# DFS solution.
+def preferenceList_dfs(A):
+    visited = {}
+    graph = collections.defaultdict(set)
+    for a in A:
+        for i, c in enumerate(a):
+            visited[c] = False
+            if i < len(a) - 1:
+                graph[a[i]].add(a[i + 1])
+
+    def valid(ancestors, curr):
+        if curr in ancestors:
+            return False # invalid, there is a circle
+        if visited[curr]:
+            return True
+        visited[curr] = True
+        for nxt in graph[curr]:
+            if not valid(ancestors | {curr}, nxt):
+                return False
+        res.append(curr) # add the one which has no prior character
+        return True
+
+    res = []
+    for p in visited:
+        if not valid(set(), p):
+            return ''
+    return res[::-1]
+
+# print(preferenceList_dfs([[2,3,5], [4,2,1], [4,1,5,6], [4,7]]))
+
+# toposort
+def preferenceList_toposort(A):
+    pre = collections.defaultdict(set)  # {character A : characters that is in front of A}
+    is_pre = collections.defaultdict(set)  # {character A : characters that is in front of A}
+    whole = set()
+    # get relations between characters using words list
+    for a in A:
+        for i in range(len(a) - 1):
+            pre[a[i + 1]].add(a[i])
+            is_pre[a[i]].add(a[i + 1])
+            whole.add(a[i + 1])
+            whole.add(a[i])
+
+    cur = [c for c in whole if not pre[c]]
+    while len(cur) != len(whole):
+        nxt = cur[:]
+        for c in cur:
+            for after in is_pre[c]:
+                if c in pre[after]:
+                    pre[after].remove(c)
+                    if not pre[after]:
+                        nxt.append(after)
+        if nxt == cur:
+            return []
+        cur = nxt
+    return cur
+
+# print all
 def preferenceList(A):
     prev = collections.defaultdict(set)
     after = collections.defaultdict(set)
@@ -28,5 +88,5 @@ def preferenceList(A):
         dfs(i, [], set())
     return res
 
-print(preferenceList([[2,3,5], [4,2,1], [4,1,5,6], [4,7]]))
+print(preferenceList_toposort([[2,3,5], [4,2,1], [4,1,5,6], [4,7]]))
 

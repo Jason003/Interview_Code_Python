@@ -1,5 +1,4 @@
 import collections
-import bisect
 class BankSystem:
     def __init__(self):
         self.acounts = collections.defaultdict(lambda : [(0, 0)])

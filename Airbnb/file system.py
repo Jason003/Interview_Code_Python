@@ -1,6 +1,6 @@
 class FileSystem:
     def __init__(self):
-        self.map = {'':0}
+        self.map = {'': 0}
         self.callbackMap = {}
 
     def create(self, path, value):
@@ -22,31 +22,40 @@ class FileSystem:
                 self.callbackMap[curr]()
             curr = curr[:curr.rfind('/')]
         return True
+        # for s in self.callbackMap:
+        #     if s.startswith(path):
+        #         self.callbackMap[s]()
+        # return True
 
     def get(self, path):
         if path not in self.map:
             return -1
         return self.map[path]
 
-    def watch(self, path, alert):
+    def watch(self, path):
         if path not in self.map:
             return
-        def callBack():
-            print(alert)
-        self.callbackMap[path] = callBack
 
-# fileSystem = FileSystem()
-# print(fileSystem.create('/a', 1))
-# print(fileSystem.get('/a'))
-# print(fileSystem.create('/a/b', 2))
-# print(fileSystem.get('/a/b'))
-# print(fileSystem.create('/c/d', 3))
-# fileSystem.set('/a/b', 4)
-# print(fileSystem.get('/a/b'))
-# fileSystem.watch('/a', '/a call back')
-# fileSystem.watch('/a/b', '/a/b call back')
-# fileSystem.set('/a/b', 5)
-# print(fileSystem.get('/a/b'))
+        def callback():
+            print(path)
+
+        self.callbackMap[path] = callback
+
+
+fileSystem = FileSystem()
+print(fileSystem.create('/a', 1))
+print(fileSystem.get('/a'))
+print(fileSystem.create('/a/b', 2))
+print(fileSystem.get('/a/b'))
+print(fileSystem.create('/c/d', 3))
+fileSystem.set('/a/b', 4)
+print(fileSystem.get('/a/b'))
+fileSystem.watch('/a')
+fileSystem.watch('/a/b')
+fileSystem.set('/a/b', 5)
+fileSystem.set('/a', 5)
+print(fileSystem.get('/a/b'))
+
 
 class Node:
     def __init__(self, key, val, callBack, children):
@@ -55,7 +64,8 @@ class Node:
         self.callBack = callBack
         self.children = children
 
-class FileSystem2: # Trie
+
+class FileSystem2:  # Trie
     def __init__(self):
         self.root = Node('', 0, None, {})
 
@@ -107,19 +117,21 @@ class FileSystem2: # Trie
             if c not in node.children:
                 return
             node = node.children[c]
+
         def callBack():
             print(alert)
+
         node.callBack = callBack
 
-fileSystem = FileSystem2()
-print(fileSystem.create('/a', 1))
-print(fileSystem.get('/a'))
-print(fileSystem.create('/a/b', 2))
-print(fileSystem.get('/a/b'))
-print(fileSystem.create('/c/d', 3))
-fileSystem.set('/a/b', 4)
-print(fileSystem.get('/a/b'))
-fileSystem.watch('/a', '/a call back')
-fileSystem.watch('/a/b', '/a/b call back')
-fileSystem.set('/a/b', 5)
-print(fileSystem.get('/a/b'))
+        # fileSystem = FileSystem2()
+        # print(fileSystem.create('/a', 1))
+        # print(fileSystem.get('/a'))
+        # print(fileSystem.create('/a/b', 2))
+        # print(fileSystem.get('/a/b'))
+        # print(fileSystem.create('/c/d', 3))
+        # fileSystem.set('/a/b', 4)
+        # print(fileSystem.get('/a/b'))
+        # fileSystem.watch('/a', '/a call back')
+        # fileSystem.watch('/a/b', '/a/b call back')
+        # fileSystem.set('/a/b', 5)
+        # print(fileSystem.get('/a/b'))
