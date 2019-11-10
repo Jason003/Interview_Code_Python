@@ -44,19 +44,16 @@ def preferenceList_toposort(A):
             whole.add(a[i + 1])
             whole.add(a[i])
 
-    cur = [c for c in whole if not pre[c]]
-    while len(cur) != len(whole):
-        nxt = cur[:]
-        for c in cur:
-            for after in is_pre[c]:
-                if c in pre[after]:
-                    pre[after].remove(c)
-                    if not pre[after]:
-                        nxt.append(after)
-        if nxt == cur:
-            return []
-        cur = nxt
-    return cur
+    dq = collections.deque([c for c in whole if not pre[c]])
+    res = []
+    while dq:
+        curr = dq.popleft()
+        res.append(curr)
+        for after in is_pre[curr]:
+            pre[after].discard(curr)
+            if not pre[after]:
+                dq.append(after)
+    return res if len(res) == len(whole) else []
 
 # print all
 def preferenceList(A):

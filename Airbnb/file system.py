@@ -42,19 +42,19 @@ class FileSystem:
         self.callbackMap[path] = callback
 
 
-fileSystem = FileSystem()
-print(fileSystem.create('/a', 1))
-print(fileSystem.get('/a'))
-print(fileSystem.create('/a/b', 2))
-print(fileSystem.get('/a/b'))
-print(fileSystem.create('/c/d', 3))
-fileSystem.set('/a/b', 4)
-print(fileSystem.get('/a/b'))
-fileSystem.watch('/a')
-fileSystem.watch('/a/b')
-fileSystem.set('/a/b', 5)
-fileSystem.set('/a', 5)
-print(fileSystem.get('/a/b'))
+# fileSystem = FileSystem()
+# print(fileSystem.create('/a', 1))
+# print(fileSystem.get('/a'))
+# print(fileSystem.create('/a/b', 2))
+# print(fileSystem.get('/a/b'))
+# print(fileSystem.create('/c/d', 3))
+# fileSystem.set('/a/b', 4)
+# print(fileSystem.get('/a/b'))
+# fileSystem.watch('/a')
+# fileSystem.watch('/a/b')
+# fileSystem.set('/a/b', 5)
+# fileSystem.set('/a', 5)
+# print(fileSystem.get('/a/b'))
 
 
 class Node:
@@ -106,6 +106,13 @@ class FileSystem2:  # Trie
                 callBacks.append(node.callBack)
         while callBacks:
             callBacks.pop()()
+
+        # def dfs_callback(node):
+        #     if node.callBack:
+        #         node.callBack()
+        #     for c in node.children:
+        #         dfs_callback(node.children[c])
+        # dfs_callback(node)
         node.val = val
         return True
 
@@ -123,15 +130,15 @@ class FileSystem2:  # Trie
 
         node.callBack = callBack
 
-        # fileSystem = FileSystem2()
-        # print(fileSystem.create('/a', 1))
-        # print(fileSystem.get('/a'))
-        # print(fileSystem.create('/a/b', 2))
-        # print(fileSystem.get('/a/b'))
-        # print(fileSystem.create('/c/d', 3))
-        # fileSystem.set('/a/b', 4)
-        # print(fileSystem.get('/a/b'))
-        # fileSystem.watch('/a', '/a call back')
-        # fileSystem.watch('/a/b', '/a/b call back')
-        # fileSystem.set('/a/b', 5)
-        # print(fileSystem.get('/a/b'))
+fileSystem = FileSystem2()
+print(fileSystem.create('/a', 1))
+print(fileSystem.get('/a'))
+print(fileSystem.create('/a/b', 2))
+print(fileSystem.get('/a/b'))
+print(fileSystem.create('/c/d', 3))
+fileSystem.set('/a/b', 4)
+print(fileSystem.get('/a/b'))
+fileSystem.watch('/a', '/a call back')
+fileSystem.watch('/a/b', '/a/b call back')
+fileSystem.set('/a', 5)
+print(fileSystem.get('/a/b'))

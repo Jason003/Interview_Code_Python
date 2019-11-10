@@ -24,6 +24,9 @@ Time O(NlogN) for sorting
 Time O(NlogN) for binary search for each job
 Space O(N)
 '''
+
+
+
 import bisect
 def jobScheduling(startTime, endTime, profit):
     n = len(startTime)
@@ -75,3 +78,17 @@ profit = [7,25,35,83,75,89,61,23,28,97,43,100,92,29,97,44,52,55,91,18,27,7,34,41
 
 print(jobScheduling(startTime, endTime, profit))
 print(jobScheduling2(startTime, endTime, profit))
+
+
+
+def _search(A, k):  # find the largest index i where A[i]
+    lo, hi = 0, len(A) - 1
+    while lo <= hi:
+        mi = (lo + hi) // 2
+        if A[mi] == k:
+            return mi
+        elif A[mi] < k:
+            lo = mi + 1
+        else:
+            hi = mi - 1
+    return lo

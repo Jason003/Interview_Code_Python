@@ -8,7 +8,7 @@ def ipToCIDR(ip, n):
     # find the number represents by ip
     x = 0
     for num in ip.split('.'):
-        x = x * 256 + int(num)
+        x = x * 256 + int(num) # convert to decimal base
     res = []
     # find the number of same prefix with x (we need to find the last position of 1 in binary representation of x)
     while n:

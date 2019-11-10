@@ -7,8 +7,8 @@ import collections
 # topo sort
 class Solution0:
     def alienOrder(self, words) -> str:
-        pre = collections.defaultdict(set)  # {character A : characters that is in front of A}
-        is_pre = collections.defaultdict(set)  # {character A : characters that is in front of A}
+        pre = collections.defaultdict(set)  # {character A : characters that should be in front of A}
+        is_pre = collections.defaultdict(set)  # {character A : characters that should be behind A}
         n = len(words)
         # get relations between characters using words list
         for i in range(n - 1):
@@ -32,6 +32,41 @@ class Solution0:
                 return ''
             cur = nxt
         return ''.join(cur)
+
+def alienOrder_all(words):
+    # time: O(V! + E) space: O(V + E)
+    pre = collections.defaultdict(set)
+    is_pre = collections.defaultdict(set)
+    n = len(words)
+    for i in range(n - 1):
+        a, b = words[i], words[i + 1]
+        for j in range(min(len(a), len(b))):
+            if a[j] != b[j]:
+                pre[b[j]].add(a[j])
+                is_pre[a[j]].add(b[j])
+                break
+    letters = set(list(''.join(words)))
+    res = set()
+
+    def dfs(path, seen, course):
+        if len(path) == len(letters):
+            res.add(tuple(path))
+            return
+        if course in seen or pre[course]:
+            return
+        mark = set()
+        for i in is_pre[course]:
+            pre[i].discard(course)
+            mark.add(i)
+        for i in letters - seen:
+            dfs(path + [course], seen | {course}, i)
+        for i in mark:
+            pre[i].add(course)
+
+    for i in letters:
+        dfs([], set(), i)
+    return [''.join(s) for s in res]
+print(alienOrder_all(["a","b","ca","cc",'cfd']))
 
 
 # DFS solution.

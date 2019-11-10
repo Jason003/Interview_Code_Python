@@ -45,107 +45,13 @@ def pourWater(A, V, K):
                 elif A[i] > A[idx]:
                     break
             A[idx] += 1
-    printWater()
+        printWater()
     return A
 
-# pourWater([2,1,1,2,1,2,2], 4, 3)
-
-def pourWater2(A, V, K): # no walls
-
-    def printWater():
-        m, n = max(A), len(A)
-        res = [[' '] * n for _ in range(m)]
-        for j in range(n):
-            for i in range(A[j]):
-                res[-i-1][j] = 'w'
-        for j in range(K - preK, K - preK + len(tep)):
-            for i in range(tep[j - K + preK]):
-                res[-i-1][j] = '#'
-
-        for row in res:
-            print(''.join(row))
-        print('============')
-    preK = K
-    tep = A[:]
-    printWater()
-    for _ in range(V):
-        idx = K
-        i = K
-        while i >= 0:
-            if A[i] < A[idx]:
-                idx = i
-            elif A[i] > A[idx]:
-                break
-            i -= 1
-        if i == -1:
-            A = [1] + A
-            K += 1
-            continue
-        if idx != K:
-            A[idx] += 1
-        else:
-            i = K
-            while i < len(A):
-                if A[i] < A[idx]:
-                    idx = i
-                elif A[i] > A[idx]:
-                    break
-                i += 1
-            if i == len(A):
-                A.append(1)
-                continue
-            A[idx] += 1
-    printWater()
-    return A
-
-# pourWater2([5,4,3,2,5], 10, 2)
+pourWater([2,1,1,2,1,2,2], 15, 3)
 
 # 左边有墙
-def pourWater3(A, V, K): # no walls
-
-    def printWater():
-        m, n = max(A), len(A)
-        res = [[' '] * n for _ in range(m)]
-        for j in range(n):
-            for i in range(A[j]):
-                res[-i-1][j] = 'w'
-        for j in range(K - preK, K - preK + len(tep)):
-            for i in range(tep[j - K + preK]):
-                res[-i-1][j] = '#'
-
-        for row in res:
-            print(''.join(row))
-        print('============')
-    preK = K
-    tep = A[:]
-    printWater()
-    for _ in range(V):
-        idx = K
-        i = K
-        while i >= 0:
-            if A[i] < A[idx]:
-                idx = i
-            elif A[i] > A[idx]:
-                break
-            i -= 1
-        if idx != K and i != -1:
-            A[idx] += 1
-        else:
-            i = K
-            while i < len(A):
-                if A[i] < A[idx]:
-                    idx = i
-                elif A[i] > A[idx]:
-                    break
-                i += 1
-            if i == len(A):
-                continue
-            A[idx] += 1
-    printWater()
-    return A
-
-# 左边有墙
-def pourWater3(A, V, K): # no walls
+def pourWater1(A, V, K):
 
     def printWater():
         m, n = max(A), len(A)
@@ -189,7 +95,7 @@ def pourWater3(A, V, K): # no walls
     return A
 
 # 右边有墙
-def pourWater3(A, V, K): # no walls
+def pourWater2(A, V, K):
 
     def printWater():
         m, n = max(A), len(A)
@@ -321,4 +227,4 @@ def pourWater5(A, V, K):
         printWater()
     return A
 
-pourWater5([5,4,3,2,5], 10, 2)
+# pourWater5([5,4,3,2,5], 10, 2)
