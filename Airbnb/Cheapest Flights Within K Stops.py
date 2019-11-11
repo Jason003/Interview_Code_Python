@@ -83,3 +83,15 @@ class Solution:
 
         dfs(src, 0, K + 1, set())
         return self.res if self.res != float('inf') else -1
+
+
+def shortest_path(edges, src, dst, n):
+    # bellman ford
+    dp = [[float("inf")] * (n + 1) for _ in range(n)]
+    dp[src] = [0] * (n + 1)
+    for k in range(1, n + 1):
+        for u, v, w in edges: # vertex u, vertex v and weight of edge (u, v)
+            if dp[u][k - 1] != float('inf') and dp[u][k - 1] + w < dp[v][k]:
+                dp[v][k] = dp[u][k - 1] + w
+    return dp[dst][n]
+

@@ -1,4 +1,4 @@
-import time
+import time, collections
 
 class RateLimiter:
     # token bucket
@@ -26,12 +26,10 @@ class RateLimiter2: # different clients
     def __init__(self, max_number, interval):
         self.max_number = max_number
         self.interval = interval
-        self.lastTme = {}
-        self.allowance = {} # current tokens in the bucket
+        self.lastTme = collections.defaultdict(lambda : time.time())
+        self.allowance = collections.defaultdict(lambda : max_number) # current tokens in the bucket
 
     def call(self, clientID):
-        self.lastTme.setdefault(clientID, time.time())
-        self.allowance.setdefault(clientID, self.max_number)
         currTime = time.time()
         timeDiff = currTime - self.lastTme[clientID]
         self.lastTme[clientID] = currTime
