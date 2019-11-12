@@ -1,52 +1,30 @@
 import time, collections
 
 class RateLimiter:
-    # token bucket
     def __init__(self, max_number, interval):
-        self.max_number = max_number
+        self.timeStamp = collections.defaultdict(collections.deque)
         self.interval = interval
-        self.lastTme = time.time()
-        self.allowance = max_number # current tokens in the bucket
-
-    def call(self):
-        currTime = time.time()
-        timeDiff = currTime - self.lastTme
-        self.lastTme = currTime
-        self.allowance += timeDiff * (self.max_number / self.interval)
-        if self.allowance > self.max_number:
-            self.allowance = self.max_number
-        if self.allowance < 1.0:
-            return False
-        else:
-            self.allowance -= 1.0
-            return True
-
-class RateLimiter2: # different clients
-    # token bucket
-    def __init__(self, max_number, interval):
         self.max_number = max_number
-        self.interval = interval
-        self.lastTme = collections.defaultdict(lambda : time.time())
-        self.allowance = collections.defaultdict(lambda : max_number) # current tokens in the bucket
 
-    def call(self, clientID):
+    def call(self, id):
         currTime = time.time()
-        timeDiff = currTime - self.lastTme[clientID]
-        self.lastTme[clientID] = currTime
-        self.allowance[clientID] += timeDiff * (self.max_number / self.interval)
-
-        if self.allowance[clientID] > self.max_number:
-            self.allowance[clientID] = self.max_number
-
-        if self.allowance[clientID] < 1.0:
-            return False
-        else:
-            self.allowance[clientID] -= 1.0
+        if len(self.timeStamp[id]) < self.max_number:
+            self.timeStamp[id].append(currTime)
             return True
+        else:
+            if currTime - self.timeStamp[id][0] > self.interval:
+                self.timeStamp[id].popleft()
+                self.timeStamp[id].append(currTime)
+                return True
+            else:
+                return False
 
-rl = RateLimiter2(10, 1)
-for _ in range(10):
-    print(rl.call(1))
-time.sleep(0.5)
-for _ in range(10):
-    print(rl.call(1))
+rateLimiter = RateLimiter(5, 2)
+for i in range(10):
+    print(rateLimiter.call(1))
+time.sleep(1)
+for i in range(5):
+    print(rateLimiter.call(2))
+
+
+
